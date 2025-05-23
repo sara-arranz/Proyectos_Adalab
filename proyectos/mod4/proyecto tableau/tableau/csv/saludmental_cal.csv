@@ -1,0 +1,69 @@
+,age,gender,self_employed,family_history,treatment,work_interfere,remote_work,benefits,care_options,wellness_program,seek_help,anonymity,leave,mental_health_consequence,phys_health_consequence,coworkers,supervisor,mental_health_interview,phys_health_interview,mental_vs_physical,obs_consequence,age_group
+65,40,male,No,Yes,No,Sometimes,Yes,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Maybe,Some of them,No,No,No,No,Yes,35-44
+74,33,male,No,No,No,Never,No,Don't know,Not sure,Yes,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Yes,No,25-34
+84,33,male,No,Yes,No,Never,No,No,No,No,No,Don't know,Don't know,Yes,No,No,No,No,Maybe,No,No,25-34
+156,27,male,No,Yes,Yes,Sometimes,No,Don't know,No,No,Don't know,Don't know,Don't know,No,No,No,Some of them,No,Maybe,Don't know,No,25-34
+162,31,male,No,No,No,Never,No,Yes,No,No,Yes,Don't know,Don't know,No,No,Some of them,Some of them,No,No,Don't know,No,25-34
+183,45,male,No,No,Yes,Sometimes,No,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Yes,Yes,Some of them,Some of them,No,No,Don't know,No,45-59
+189,35,female,No,Yes,Yes,Never,No,Yes,Not sure,Don't know,No,Yes,Somewhat easy,Maybe,No,No,No,No,No,Don't know,No,35-44
+197,26,male,No,No,No,Rarely,No,Yes,No,No,No,Yes,Somewhat easy,No,No,Some of them,Yes,No,Maybe,No,No,25-34
+291,35,male,No,No,No,Never,No,Don't know,No,No,Don't know,Don't know,Don't know,Yes,Maybe,Some of them,Some of them,No,No,Don't know,No,35-44
+293,32,male,No,No,No,Never,No,Yes,No,No,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No,25-34
+297,60,male,No,No,No,Unknown,No,Yes,No,Don't know,Yes,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Yes,No,60+
+298,33,male,No,Yes,Yes,Sometimes,No,Yes,No,Yes,Yes,Don't know,Don't know,Yes,No,No,No,No,Maybe,Don't know,No,25-34
+301,31,female,No,No,Yes,Sometimes,No,Yes,Not sure,Don't know,Don't know,Yes,Somewhat easy,No,No,Yes,Yes,No,No,Yes,No,25-34
+304,37,female,No,No,Yes,Rarely,No,Yes,Yes,Don't know,Yes,Don't know,Somewhat easy,No,No,Some of them,Yes,No,No,Yes,No,35-44
+313,26,male,No,Yes,Yes,Sometimes,No,Yes,Not sure,No,Don't know,Don't know,Don't know,Yes,No,No,No,No,No,No,No,25-34
+314,27,male,No,Yes,No,Unknown,No,Don't know,No,Don't know,Don't know,Don't know,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No,25-34
+321,29,male,No,No,Yes,Sometimes,No,Yes,No,No,Don't know,Don't know,Don't know,Yes,No,Some of them,Some of them,No,Maybe,No,No,25-34
+323,24,female,No,Yes,Yes,Sometimes,No,Yes,Yes,No,Yes,Yes,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No,<25
+325,25,male,No,No,No,Unknown,No,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Maybe,No,No,No,No,Maybe,Don't know,No,25-34
+327,25,male,No,Yes,Yes,Sometimes,No,Don't know,Not sure,Don't know,Yes,Don't know,Don't know,No,No,Yes,Yes,No,No,Yes,No,25-34
+337,29,female,Yes,No,No,Sometimes,No,Yes,Not sure,Don't know,No,Don't know,Very easy,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No,25-34
+342,27,male,No,No,No,Sometimes,No,Don't know,Not sure,Don't know,Don't know,Don't know,Very easy,Yes,No,No,No,No,Maybe,No,No,25-34
+347,54,male,No,Yes,Yes,Never,No,Don't know,No,Yes,Yes,Don't know,Don't know,No,No,No,Yes,No,No,Don't know,No,45-59
+348,22,male,No,No,No,Sometimes,No,Don't know,No,Don't know,Don't know,Don't know,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No,<25
+349,25,other,No,Yes,Yes,Sometimes,No,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Yes,No,25-34
+353,26,male,No,Yes,Yes,Often,No,Yes,Not sure,Don't know,Yes,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No,25-34
+366,35,male,No,Yes,No,Unknown,No,Yes,No,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,No,No,Don't know,No,35-44
+379,26,female,No,Yes,Yes,Never,No,Yes,Yes,No,Yes,Yes,Don't know,Maybe,No,No,No,No,No,Don't know,No,25-34
+381,27,male,No,No,Yes,Rarely,No,Yes,No,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No,25-34
+402,23,male,No,No,No,Unknown,No,Don't know,No,No,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,No,No,<25
+407,33,male,No,No,No,Unknown,Yes,Don't know,No,Don't know,Don't know,Don't know,Don't know,Yes,No,Some of them,No,No,Maybe,Yes,No,25-34
+445,39,male,No,Yes,No,Often,No,Yes,No,No,Don't know,Don't know,Don't know,Yes,No,Some of them,Some of them,No,Maybe,No,Yes,35-44
+466,57,male,No,Yes,Yes,Rarely,No,Yes,Yes,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,Maybe,No,No,45-59
+471,58,male,No,No,Yes,Rarely,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,No,Some of them,Yes,No,Yes,Yes,No,45-59
+475,57,male,No,No,Yes,Sometimes,No,Yes,Not sure,Yes,Yes,Don't know,Don't know,Maybe,Maybe,No,No,No,Maybe,Don't know,No,45-59
+481,43,male,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,Maybe,No,No,No,Yes,Don't know,No,35-44
+490,31,male,No,No,No,Unknown,No,Yes,Not sure,Don't know,Don't know,Yes,Don't know,No,No,No,Some of them,No,No,Yes,No,25-34
+505,46,male,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Yes,No,45-59
+508,47,male,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Don't know,Very easy,No,No,Some of them,Yes,No,Yes,Yes,No,45-59
+509,22,male,No,No,No,Unknown,No,Yes,Not sure,Yes,Don't know,Yes,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No,<25
+512,29,male,No,No,No,Unknown,No,Don't know,Not sure,No,Don't know,Don't know,Don't know,Maybe,No,No,No,No,Maybe,Don't know,No,25-34
+520,62,male,No,No,No,Never,No,Yes,Yes,Don't know,Yes,Don't know,Don't know,Maybe,No,Some of them,Yes,Maybe,Maybe,Yes,No,60+
+537,26,male,No,Yes,Yes,Never,No,Don't know,No,No,Don't know,Don't know,Don't know,Maybe,No,No,No,No,No,No,No,25-34
+547,36,male,No,Yes,Yes,Sometimes,No,Yes,No,No,Yes,Don't know,Somewhat difficult,Yes,No,Some of them,Yes,No,Yes,No,No,35-44
+548,21,male,No,Yes,No,Unknown,No,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No,<25
+559,24,male,No,No,No,Unknown,No,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Yes,No,<25
+567,32,male,No,No,Yes,Sometimes,No,Yes,No,No,Yes,Don't know,Somewhat easy,No,No,Yes,Some of them,Maybe,Yes,Don't know,No,25-34
+568,31,male,No,Yes,No,Sometimes,No,Yes,Not sure,Don't know,Don't know,Don't know,Somewhat easy,Maybe,No,No,Some of them,No,Yes,No,No,25-34
+571,42,other,No,No,Yes,Often,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,Yes,Yes,Maybe,Maybe,Don't know,No,35-44
+580,41,male,No,Yes,Yes,Often,No,Yes,No,No,No,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,Yes,35-44
+623,23,female,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,Maybe,No,No,No,No,Don't know,No,<25
+662,32,male,No,No,No,Never,No,Don't know,Not sure,Don't know,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No,25-34
+754,36,male,No,No,No,Never,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,No,No,Yes,No,35-44
+757,26,male,No,Yes,Yes,Sometimes,No,Yes,No,Yes,Don't know,Don't know,Somewhat difficult,Yes,Maybe,No,No,No,Maybe,No,No,25-34
+803,30,female,No,No,No,Unknown,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,No,No,No,Yes,No,25-34
+843,35,male,No,No,No,Sometimes,No,Don't know,Not sure,Yes,Don't know,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No,35-44
+855,25,male,No,Yes,No,Unknown,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,Maybe,Yes,Yes,No,25-34
+870,56,male,No,No,Yes,Rarely,Yes,Yes,Yes,Don't know,Yes,Yes,Somewhat easy,No,No,Yes,Yes,Yes,Yes,Yes,No,45-59
+919,22,female,No,Yes,Yes,Often,No,Don't know,Not sure,No,Don't know,Don't know,Don't know,Yes,Yes,No,No,No,No,Don't know,No,<25
+925,29,male,No,No,No,Sometimes,No,Yes,No,Yes,No,Don't know,Don't know,Yes,Maybe,No,No,No,No,Don't know,No,25-34
+948,35,male,No,No,Yes,Sometimes,No,Yes,Yes,Don't know,Yes,Don't know,Very difficult,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No,35-44
+958,26,male,No,No,Yes,Rarely,No,Yes,Not sure,Don't know,Don't know,Don't know,Don't know,No,No,Some of them,Some of them,No,Maybe,No,No,25-34
+1108,33,female,No,No,Yes,Often,No,Yes,Yes,Don't know,Don't know,Don't know,Don't know,Yes,No,No,No,No,Maybe,Don't know,No,25-34
+1150,32,male,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Somewhat difficult,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,Yes,25-34
+1165,32,male,No,Yes,No,Sometimes,No,Yes,No,Yes,Don't know,Don't know,Don't know,Maybe,No,Yes,Yes,No,No,Don't know,No,25-34
+1181,38,male,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Don't know,Maybe,No,Some of them,No,No,Maybe,No,Yes,35-44
+1236,60,male,No,No,Yes,Often,Yes,Don't know,No,Yes,Don't know,Don't know,Somewhat easy,Maybe,Maybe,Some of them,No,No,Maybe,Don't know,No,60+
+1256,34,male,No,Yes,Yes,Sometimes,No,Yes,Yes,No,No,Don't know,Somewhat difficult,Yes,Yes,No,No,No,No,No,No,25-34

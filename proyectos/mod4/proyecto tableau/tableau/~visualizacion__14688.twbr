@@ -1,0 +1,3648 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='visualizacion_17446318842360' path='/workbooks' revision='1.1' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='saludmental_cal' inline='true' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='saludmental_cal' name='textscan.0p37lsx0p5e92q1gl6o0q0ktbe7u'>
+            <connection class='textscan' directory='D:/Data Analyst/Adalab/Módulo 4/Tableau/Proyecto/mentalhealth_tableau/files/processed' filename='saludmental_cal.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0p37lsx0p5e92q1gl6o0q0ktbe7u' name='saludmental_cal.csv' table='[saludmental_cal#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='age' ordinal='1' />
+            <column datatype='string' name='gender' ordinal='2' />
+            <column datatype='string' name='self_employed' ordinal='3' />
+            <column datatype='string' name='family_history' ordinal='4' />
+            <column datatype='string' name='treatment' ordinal='5' />
+            <column datatype='string' name='work_interfere' ordinal='6' />
+            <column datatype='string' name='remote_work' ordinal='7' />
+            <column datatype='string' name='benefits' ordinal='8' />
+            <column datatype='string' name='care_options' ordinal='9' />
+            <column datatype='string' name='wellness_program' ordinal='10' />
+            <column datatype='string' name='seek_help' ordinal='11' />
+            <column datatype='string' name='anonymity' ordinal='12' />
+            <column datatype='string' name='leave' ordinal='13' />
+            <column datatype='string' name='mental_health_consequence' ordinal='14' />
+            <column datatype='string' name='phys_health_consequence' ordinal='15' />
+            <column datatype='string' name='coworkers' ordinal='16' />
+            <column datatype='string' name='supervisor' ordinal='17' />
+            <column datatype='string' name='mental_health_interview' ordinal='18' />
+            <column datatype='string' name='phys_health_interview' ordinal='19' />
+            <column datatype='string' name='mental_vs_physical' ordinal='20' />
+            <column datatype='string' name='obs_consequence' ordinal='21' />
+            <column datatype='string' name='age_group' ordinal='22' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>self_employed</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[self_employed]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>self_employed</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>family_history</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[family_history]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>family_history</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>treatment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[treatment]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>treatment</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>work_interfere</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[work_interfere]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>work_interfere</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>remote_work</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[remote_work]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>remote_work</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>benefits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[benefits]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>benefits</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>care_options</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[care_options]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>care_options</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wellness_program</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[wellness_program]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>wellness_program</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>seek_help</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[seek_help]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>seek_help</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>anonymity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[anonymity]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>anonymity</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>leave</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[leave]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>leave</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mental_health_consequence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mental_health_consequence]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>mental_health_consequence</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>phys_health_consequence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[phys_health_consequence]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>phys_health_consequence</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coworkers</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[coworkers]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>coworkers</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>supervisor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[supervisor]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>supervisor</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mental_health_interview</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mental_health_interview]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>mental_health_interview</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>phys_health_interview</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[phys_health_interview]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>phys_health_interview</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mental_vs_physical</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mental_vs_physical]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>mental_vs_physical</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>obs_consequence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[obs_consequence]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>obs_consequence</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[age_group]</local-name>
+            <parent-name>[saludmental_cal.csv]</parent-name>
+            <remote-alias>age_group</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' datatype='integer' name='[Age (agrupación)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[age]' peg='0' size='3.95' />
+      </column>
+      <column caption='saludmental_cal.csv' datatype='table' name='[__tableau_internal_object_id__].[saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Age Group' datatype='string' name='[age_group]' role='dimension' type='nominal' />
+      <column caption='Anonymity' datatype='string' name='[anonymity]' role='dimension' type='nominal' />
+      <column caption='Benefits' datatype='string' name='[benefits]' role='dimension' type='nominal' />
+      <column caption='Care Options' datatype='string' name='[care_options]' role='dimension' type='nominal' />
+      <column caption='Coworkers' datatype='string' name='[coworkers]' role='dimension' type='nominal' />
+      <column caption='Family History' datatype='string' name='[family_history]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Leave' datatype='string' name='[leave]' role='dimension' type='nominal' />
+      <column caption='Mental Health Consequence' datatype='string' name='[mental_health_consequence]' role='dimension' type='nominal' />
+      <column caption='Mental Health Interview' datatype='string' name='[mental_health_interview]' role='dimension' type='nominal' />
+      <column caption='Mental Vs Physical' datatype='string' name='[mental_vs_physical]' role='dimension' type='nominal' />
+      <column caption='Obs Consequence' datatype='string' name='[obs_consequence]' role='dimension' type='nominal' />
+      <column caption='Phys Health Consequence' datatype='string' name='[phys_health_consequence]' role='dimension' type='nominal' />
+      <column caption='Phys Health Interview' datatype='string' name='[phys_health_interview]' role='dimension' type='nominal' />
+      <column caption='Remote Work' datatype='string' name='[remote_work]' role='dimension' type='nominal' />
+      <column caption='Seek Help' datatype='string' name='[seek_help]' role='dimension' type='nominal' />
+      <column caption='Self Employed' datatype='string' name='[self_employed]' role='dimension' type='nominal' />
+      <column caption='Supervisor' datatype='string' name='[supervisor]' role='dimension' type='nominal' />
+      <column caption='Treatment' datatype='string' name='[treatment]' role='dimension' type='nominal' />
+      <column caption='Wellness Program' datatype='string' name='[wellness_program]' role='dimension' type='nominal' />
+      <column caption='Work Interfere' datatype='string' name='[work_interfere]' role='dimension' type='nominal' />
+      <column-instance column='[coworkers]' derivation='None' name='[none:coworkers:nk]' pivot='key' type='nominal' />
+      <column-instance column='[family_history]' derivation='None' name='[none:family_history:nk]' pivot='key' type='nominal' />
+      <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+      <column-instance column='[leave]' derivation='None' name='[none:leave:nk]' pivot='key' type='nominal' />
+      <column-instance column='[mental_health_consequence]' derivation='None' name='[none:mental_health_consequence:nk]' pivot='key' type='nominal' />
+      <column-instance column='[phys_health_consequence]' derivation='None' name='[none:phys_health_consequence:nk]' pivot='key' type='nominal' />
+      <column-instance column='[seek_help]' derivation='None' name='[none:seek_help:nk]' pivot='key' type='nominal' />
+      <column-instance column='[supervisor]' derivation='None' name='[none:supervisor:nk]' pivot='key' type='nominal' />
+      <column-instance column='[treatment]' derivation='None' name='[none:treatment:nk]' pivot='key' type='nominal' />
+      <column-instance column='[work_interfere]' derivation='None' name='[none:work_interfere:nk]' pivot='key' type='nominal' />
+      <drill-paths>
+        <drill-path name='country, state' />
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='C:/Users/panac/AppData/Local/Temp/TableauTemp/#TableauTemp_033c9uy05poeni1concqk0duuuib.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>68</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gender</remote-alias>
+              <ordinal>2</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>self_employed</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[self_employed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>self_employed</remote-alias>
+              <ordinal>3</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>family_history</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[family_history]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>family_history</remote-alias>
+              <ordinal>4</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>treatment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[treatment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>treatment</remote-alias>
+              <ordinal>5</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>work_interfere</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[work_interfere]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>work_interfere</remote-alias>
+              <ordinal>6</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>remote_work</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[remote_work]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>remote_work</remote-alias>
+              <ordinal>7</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>benefits</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[benefits]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>benefits</remote-alias>
+              <ordinal>8</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>care_options</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[care_options]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>care_options</remote-alias>
+              <ordinal>9</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>wellness_program</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[wellness_program]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>wellness_program</remote-alias>
+              <ordinal>10</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>seek_help</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[seek_help]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>seek_help</remote-alias>
+              <ordinal>11</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>anonymity</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[anonymity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>anonymity</remote-alias>
+              <ordinal>12</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>leave</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[leave]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>leave</remote-alias>
+              <ordinal>13</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mental_health_consequence</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[mental_health_consequence]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mental_health_consequence</remote-alias>
+              <ordinal>14</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>phys_health_consequence</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[phys_health_consequence]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>phys_health_consequence</remote-alias>
+              <ordinal>15</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>coworkers</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[coworkers]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>coworkers</remote-alias>
+              <ordinal>16</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>supervisor</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[supervisor]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>supervisor</remote-alias>
+              <ordinal>17</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mental_health_interview</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[mental_health_interview]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mental_health_interview</remote-alias>
+              <ordinal>18</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>phys_health_interview</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[phys_health_interview]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>phys_health_interview</remote-alias>
+              <ordinal>19</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mental_vs_physical</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[mental_vs_physical]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mental_vs_physical</remote-alias>
+              <ordinal>20</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>obs_consequence</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[obs_consequence]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>obs_consequence</remote-alias>
+              <ordinal>21</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[age_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age_group</remote-alias>
+              <ordinal>22</ordinal>
+              <family>saludmental_cal.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:gender:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;other&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;male&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;female&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:treatment:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:family_history:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:seek_help:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;Don&apos;t know&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:work_interfere:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </map>
+            <map to='#d54a45'>
+              <bucket>&quot;Sometimes&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;Rarely&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;Never&quot;</bucket>
+            </map>
+            <map to='#faa04f'>
+              <bucket>&quot;Often&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:leave:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;Very easy&quot;</bucket>
+            </map>
+            <map to='#d54a45'>
+              <bucket>&quot;Very difficult&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;Somewhat easy&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;Don&apos;t know&quot;</bucket>
+            </map>
+            <map to='#faa04f'>
+              <bucket>&quot;Somewhat difficult&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:mental_health_consequence:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;Maybe&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:phys_health_consequence:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;Maybe&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:coworkers:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;Some of them&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:supervisor:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#b71d3e'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;Some of them&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='saludmental_cal.csv' id='saludmental_cal.csv_2E06BD11A71A420B8275CF190E1585EA'>
+            <properties context=''>
+              <relation connection='textscan.0p37lsx0p5e92q1gl6o0q0ktbe7u' name='saludmental_cal.csv' table='[saludmental_cal#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_ES'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='age' ordinal='1' />
+                  <column datatype='string' name='gender' ordinal='2' />
+                  <column datatype='string' name='self_employed' ordinal='3' />
+                  <column datatype='string' name='family_history' ordinal='4' />
+                  <column datatype='string' name='treatment' ordinal='5' />
+                  <column datatype='string' name='work_interfere' ordinal='6' />
+                  <column datatype='string' name='remote_work' ordinal='7' />
+                  <column datatype='string' name='benefits' ordinal='8' />
+                  <column datatype='string' name='care_options' ordinal='9' />
+                  <column datatype='string' name='wellness_program' ordinal='10' />
+                  <column datatype='string' name='seek_help' ordinal='11' />
+                  <column datatype='string' name='anonymity' ordinal='12' />
+                  <column datatype='string' name='leave' ordinal='13' />
+                  <column datatype='string' name='mental_health_consequence' ordinal='14' />
+                  <column datatype='string' name='phys_health_consequence' ordinal='15' />
+                  <column datatype='string' name='coworkers' ordinal='16' />
+                  <column datatype='string' name='supervisor' ordinal='17' />
+                  <column datatype='string' name='mental_health_interview' ordinal='18' />
+                  <column datatype='string' name='phys_health_interview' ordinal='19' />
+                  <column datatype='string' name='mental_vs_physical' ordinal='20' />
+                  <column datatype='string' name='obs_consequence' ordinal='21' />
+                  <column datatype='string' name='age_group' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='rotacion_abc' inline='true' name='federated.1xwl8hf1fq366i17nbigt0amybn2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='rotacion_abc' name='textscan.0kdrsbj12ilwxq13mgs4y0n8bc64'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='D:/Data Analyst/Adalab/Módulo 4/Tableau/Proyecto/mentalhealth_tableau/files/processed/rotacion_abc.csv' dataRefreshTime='' directory='D:/Data Analyst/Adalab/Módulo 4/Tableau/Proyecto/mentalhealth_tableau/files/processed' filename='C:/Users/panac/AppData/Local/Temp/TableauTemp/18utjc70r7vph51fort700qxk4x3/rotacion_abc.csv.xlsx' interpretationMode='8' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0kdrsbj12ilwxq13mgs4y0n8bc64' name='rotacion_abc.csv' table='[rotacion_abc#csv$]' type='table'>
+          <columns character-set='windows-1252' gridOrigin='A1:Q260:no:A1:Q260:1' header='no' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='business_travel_frequency' ordinal='1' />
+            <column datatype='integer' name='F3' ordinal='2' />
+            <column datatype='integer' name='F4' ordinal='3' />
+            <column datatype='string' name='gender' ordinal='4' />
+            <column datatype='integer' name='F6' ordinal='5' />
+            <column datatype='integer' name='F7' ordinal='6' />
+            <column datatype='integer' name='F8' ordinal='7' />
+            <column datatype='string' name='overtime_hours' ordinal='8' />
+            <column datatype='string' name='standard_work_hours' ordinal='9' />
+            <column datatype='integer' name='F11' ordinal='10' />
+            <column datatype='integer' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='string' name='remote_work' ordinal='14' />
+            <column datatype='real' name='F16' ordinal='15' />
+            <column datatype='integer' name='F17' ordinal='16' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Q260:no:A1:Q260:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>3108</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>business_travel_frequency</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[business_travel_frequency]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>business_travel_frequency</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>overtime_hours</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[overtime_hours]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>overtime_hours</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>standard_work_hours</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[standard_work_hours]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>standard_work_hours</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>remote_work</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[remote_work]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>remote_work</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[rotacion_abc.csv]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='rotacion_abc.csv' datatype='table' name='[__tableau_internal_object_id__].[rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='C:/Users/panac/AppData/Local/Temp/TableauTemp/#TableauTemp_0bkgqij16i733g114bwth1y8u3w0.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>259</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>business_travel_frequency</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[business_travel_frequency]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>business_travel_frequency</remote-alias>
+              <ordinal>1</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F3</remote-alias>
+              <ordinal>2</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F4</remote-alias>
+              <ordinal>3</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gender</remote-alias>
+              <ordinal>4</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F6</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F6</remote-alias>
+              <ordinal>5</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F7</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F7]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F7</remote-alias>
+              <ordinal>6</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F8</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F8]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F8</remote-alias>
+              <ordinal>7</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>overtime_hours</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[overtime_hours]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>overtime_hours</remote-alias>
+              <ordinal>8</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>standard_work_hours</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[standard_work_hours]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>standard_work_hours</remote-alias>
+              <ordinal>9</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F11</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F11]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F11</remote-alias>
+              <ordinal>10</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F12</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F12]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F12</remote-alias>
+              <ordinal>11</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F13</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F13]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F13</remote-alias>
+              <ordinal>12</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F14</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F14]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F14</remote-alias>
+              <ordinal>13</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>remote_work</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[remote_work]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>remote_work</remote-alias>
+              <ordinal>14</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F16</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F16]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F16</remote-alias>
+              <ordinal>15</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F17</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F17]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F17</remote-alias>
+              <ordinal>16</ordinal>
+              <family>rotacion_abc.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='rotacion_abc.csv' id='rotacion_abc.csv_70E9FB398C794C289D80DDBEADA715A9'>
+            <properties context=''>
+              <relation connection='textscan.0kdrsbj12ilwxq13mgs4y0n8bc64' name='rotacion_abc.csv' table='[rotacion_abc#csv$]' type='table'>
+                <columns character-set='windows-1252' gridOrigin='A1:Q260:no:A1:Q260:1' header='no' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='business_travel_frequency' ordinal='1' />
+                  <column datatype='integer' name='F3' ordinal='2' />
+                  <column datatype='integer' name='F4' ordinal='3' />
+                  <column datatype='string' name='gender' ordinal='4' />
+                  <column datatype='integer' name='F6' ordinal='5' />
+                  <column datatype='integer' name='F7' ordinal='6' />
+                  <column datatype='integer' name='F8' ordinal='7' />
+                  <column datatype='string' name='overtime_hours' ordinal='8' />
+                  <column datatype='string' name='standard_work_hours' ordinal='9' />
+                  <column datatype='integer' name='F11' ordinal='10' />
+                  <column datatype='integer' name='F12' ordinal='11' />
+                  <column datatype='integer' name='F13' ordinal='12' />
+                  <column datatype='integer' name='F14' ordinal='13' />
+                  <column datatype='string' name='remote_work' ordinal='14' />
+                  <column datatype='real' name='F16' ordinal='15' />
+                  <column datatype='integer' name='F17' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Hoja 19'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7F4FA523-818A-4049-AC93-860717EB40A6}' />
+    </worksheet>
+    <worksheet name='anonim/ayuda'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>En el caso de garantizar el anonimato, ¿los empleados estarían dispuestos a pedir ayuda?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column caption='Anonymity' datatype='string' name='[anonymity]' role='dimension' type='nominal' />
+            <column-instance column='[anonymity]' derivation='None' name='[none:anonymity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[seek_help]' derivation='None' name='[none:seek_help:nk]' pivot='key' type='nominal' />
+            <column-instance column='[seek_help]' derivation='Count' name='[pcto:cnt:seek_help:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Field' type='PctTotal'>
+                <order field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:anonymity:nk]' />
+                <order field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' />
+              </table-calc>
+            </column-instance>
+            <column caption='Seek Help' datatype='string' name='[seek_help]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:anonymity:nk]'>
+            <groupfilter function='member' level='[none:anonymity:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:anonymity:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:anonymity:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' />
+              <wedge-size column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk:3]' />
+              <size column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk:3]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk:3]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Anonimato:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:anonymity:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Buscar ayuda:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk:3]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:anonymity:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{CCBA7A27-0C57-4C5C-A88F-BEBE2DB2C58E}' />
+    </worksheet>
+    <worksheet name='ayuda'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>¿Si tuvieras un problema de salud mental buscarías ayuda? </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column-instance column='[seek_help]' derivation='Count' name='[cnt:seek_help:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[seek_help]' derivation='None' name='[none:seek_help:nk]' pivot='key' type='nominal' />
+            <column-instance column='[seek_help]' derivation='Count' name='[pcto:cnt:seek_help:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Seek Help' datatype='string' name='[seek_help]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' direction='DESC' using='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[cnt:seek_help:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Buscarías ayuda:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk]</rows>
+        <cols>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]</cols>
+      </table>
+      <simple-id uuid='{A51DB58E-09C7-4F8E-B347-FCAB885F4959}' />
+    </worksheet>
+    <worksheet name='ayuda/bienestar'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>¿Buscaría ayuda si hay un programa de bienestar en su entorno laboral?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column-instance column='[seek_help]' derivation='None' name='[none:seek_help:nk]' pivot='key' type='nominal' />
+            <column-instance column='[wellness_program]' derivation='None' name='[none:wellness_program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[wellness_program]' derivation='Count' name='[pcto:cnt:wellness_program:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Seek Help' datatype='string' name='[seek_help]' role='dimension' type='nominal' />
+            <column caption='Wellness Program' datatype='string' name='[wellness_program]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:wellness_program:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:wellness_program:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:wellness_program:nk]' value='true' />
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:wellness_program:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Buscarías ayuda:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Programa de bienestar:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:wellness_program:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:wellness_program:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:wellness_program:qk]</rows>
+        <cols>([federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:wellness_program:nk] / [federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk])</cols>
+      </table>
+      <simple-id uuid='{A00A2FBF-F732-4B52-8DB8-7ED5F23510EB}' />
+    </worksheet>
+    <worksheet name='ayuda/consecuencias'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>¿Buscarías ayuda en tu lugar de trabajo si crees que te supondrá una consecuencia negativa?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column caption='Mental Health Consequence' datatype='string' name='[mental_health_consequence]' role='dimension' type='nominal' />
+            <column-instance column='[mental_health_consequence]' derivation='None' name='[none:mental_health_consequence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[seek_help]' derivation='None' name='[none:seek_help:nk]' pivot='key' type='nominal' />
+            <column-instance column='[mental_health_consequence]' derivation='Count' name='[pcto:cnt:mental_health_consequence:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Seek Help' datatype='string' name='[seek_help]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Maybe&quot;</bucket>
+              <bucket>&quot;No&quot;</bucket>
+              <bucket>&quot;Yes&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <manual-sort column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Yes&quot;</bucket>
+              <bucket>&quot;Don&apos;t know&quot;</bucket>
+              <bucket>&quot;No&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:mental_health_consequence:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:mental_health_consequence:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:mental_health_consequence:qk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:mental_health_consequence:qk]</rows>
+        <cols>([federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk] / [federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk])</cols>
+      </table>
+      <simple-id uuid='{190DCFC9-9DD9-4377-B3DA-1DF500AE0575}' />
+    </worksheet>
+    <worksheet name='ayuda/genero'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>¿Si tuvieras un problema de salud mental buscarías ayuda? Por género</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[seek_help]' derivation='None' name='[none:seek_help:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='Count' name='[pcto:cnt:gender:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Field' type='PctTotal'>
+                <order field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' />
+                <order field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' />
+              </table-calc>
+            </column-instance>
+            <column-instance column='[seek_help]' derivation='Count' name='[pcto:cnt:seek_help:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Seek Help' datatype='string' name='[seek_help]' role='dimension' type='nominal' />
+            <column-instance column='[age]' derivation='Sum' name='[sum:age:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:seek_help:nk]' member='&quot;Don&apos;t know&quot;' />
+              <groupfilter function='member' level='[none:seek_help:nk]' member='&quot;No&quot;' />
+              <groupfilter function='member' level='[none:seek_help:nk]' member='&quot;Yes&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' direction='ASC' using='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[sum:age:qk]' />
+          <slices>
+            <column>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk:2]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' value='false' />
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' value='false' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk:2]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Género:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Buscaría ayuda:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk:2]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk:2]</rows>
+        <cols>([federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk] / [federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk])</cols>
+      </table>
+      <simple-id uuid='{AC950707-0964-4FBC-A4C9-21F78A73AB93}' />
+    </worksheet>
+    <worksheet name='compañeros'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#1b1b1b' fontname='Tableau Book' fontsize='12'>¿Estarías dispuesto/a a hablar sobre un problema de salud mental con tus compañeros/as de trabajo?</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#d9d9e3' fontname='Consolas' fontsize='11'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column caption='Coworkers' datatype='string' name='[coworkers]' role='dimension' type='nominal' />
+            <column-instance column='[coworkers]' derivation='None' name='[none:coworkers:nk]' pivot='key' type='nominal' />
+            <column-instance column='[coworkers]' derivation='Count' name='[pcto:cnt:coworkers:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:coworkers:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:coworkers:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:coworkers:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:coworkers:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:coworkers:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:coworkers:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Hablarías con tus compañeros:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:coworkers:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:coworkers:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:coworkers:qk]</rows>
+        <cols>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:coworkers:nk]</cols>
+      </table>
+      <simple-id uuid='{B147F6DB-B41D-46F4-86AF-A20852309E93}' />
+    </worksheet>
+    <worksheet name='cons_sf'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='11'>¿Crees que hablar sobre un problema de salud física con tu empleador tendría consecuencias negativas?</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column-instance column='[phys_health_consequence]' derivation='None' name='[none:phys_health_consequence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[phys_health_consequence]' derivation='Count' name='[pcto:cnt:phys_health_consequence:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Phys Health Consequence' datatype='string' name='[phys_health_consequence]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:phys_health_consequence:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:phys_health_consequence:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:phys_health_consequence:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:phys_health_consequence:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:phys_health_consequence:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:phys_health_consequence:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Consecuencias por hablar de salud física:	</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:phys_health_consequence:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total :&#9;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:phys_health_consequence:qk]</rows>
+        <cols>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:phys_health_consequence:nk]</cols>
+      </table>
+      <simple-id uuid='{2220534A-330A-4CE7-835D-C7822511F14E}' />
+    </worksheet>
+    <worksheet name='cons_sm'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='11'>¿Crees que hablar sobre un problema de salud mental con tu empleador tendría consecuencias negativas?</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='11'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column caption='Mental Health Consequence' datatype='string' name='[mental_health_consequence]' role='dimension' type='nominal' />
+            <column-instance column='[mental_health_consequence]' derivation='None' name='[none:mental_health_consequence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[mental_health_consequence]' derivation='Count' name='[pcto:cnt:mental_health_consequence:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:mental_health_consequence:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:mental_health_consequence:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:mental_health_consequence:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Consecuencias por hablar de salud mental:	</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total :&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:mental_health_consequence:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:mental_health_consequence:qk]</rows>
+        <cols>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk]</cols>
+      </table>
+      <simple-id uuid='{459B1685-8247-488F-89E3-681550F3F53D}' />
+    </worksheet>
+    <worksheet name='edad'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Rango de edades</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column aggregation='None' datatype='integer' name='[Age (agrupación)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[age]' peg='0' size='3.95' />
+            </column>
+            <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+            <column caption='Age Group' datatype='string' name='[age_group]' role='dimension' type='nominal' />
+            <column-instance column='[Age (agrupación)]' derivation='None' name='[none:Age (agrupación):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[age_group]' derivation='None' name='[none:age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[age]' derivation='Count' name='[pcto:cnt:age:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[age]' derivation='Sum' name='[pcto:sum:age:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:age:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:age:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:Age (agrupación):qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:age:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:Age (agrupación):qk]' palette='red_blue_diverging_10_0' symmetric='false' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:Age (agrupación):qk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:age_group:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:sum:age:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:age:qk]</rows>
+        <cols>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:Age (agrupación):qk]</cols>
+        <show-full-range>
+          <column>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[Age (agrupación)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{77F19334-CB86-4EAE-A3B0-0929EE0C0B06}' />
+    </worksheet>
+    <worksheet name='género'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Género</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column-instance column='[gender]' derivation='Count' name='[cnt:gender:qk]' pivot='key' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='Count' name='[pcto:cnt:gender:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk]' value='p0.0%' />
+            <format attr='text-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[cnt:gender:qk]' value='center' />
+            <format attr='vertical-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[cnt:gender:qk]' value='center' />
+            <format attr='text-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' value='center' />
+            <format attr='vertical-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' value='center' />
+            <format attr='text-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk]' value='center' />
+            <format attr='vertical-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk]' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[cnt:gender:qk]' value='-90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' />
+              <size column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[cnt:gender:qk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Género:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Recuento de género:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[cnt:gender:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total :&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='14' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7C0B7EC6-D5AC-4B21-9A68-4539C1FF1ECA}' />
+    </worksheet>
+    <worksheet name='historial'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Antecedentes familiares de enfermedades mentales</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column-instance column='[family_history]' derivation='Count' name='[cnt:family_history:qk]' pivot='key' type='quantitative' />
+            <column caption='Family History' datatype='string' name='[family_history]' role='dimension' type='nominal' />
+            <column-instance column='[family_history]' derivation='None' name='[none:family_history:nk]' pivot='key' type='nominal' />
+            <column-instance column='[family_history]' derivation='Count' name='[pcto:cnt:family_history:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:family_history:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:family_history:nk]' />
+              <wedge-size column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[cnt:family_history:qk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:family_history:qk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:family_history:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Antecedentes familiares:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:family_history:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:family_history:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='12'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:family_history:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontsize='12'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:family_history:nk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='18' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0631F0CA-B633-4689-9654-6D17EBCC05D4}' />
+    </worksheet>
+    <worksheet name='permiso/supervisores'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Relación entre fácilidad para coger un permiso laboral y poder hablar con los supervisores</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column caption='Leave' datatype='string' name='[leave]' role='dimension' type='nominal' />
+            <column-instance column='[leave]' derivation='None' name='[none:leave:nk]' pivot='key' type='nominal' />
+            <column-instance column='[supervisor]' derivation='None' name='[none:supervisor:nk]' pivot='key' type='nominal' />
+            <column-instance column='[supervisor]' derivation='Count' name='[pcto:cnt:supervisor:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Supervisor' datatype='string' name='[supervisor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:leave:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Don&apos;t know&quot;</bucket>
+              <bucket>&quot;Somewhat easy&quot;</bucket>
+              <bucket>&quot;Very easy&quot;</bucket>
+              <bucket>&quot;Somewhat difficult&quot;</bucket>
+              <bucket>&quot;Very difficult&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:supervisor:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:supervisor:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:supervisor:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Permiso laboral:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:leave:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Supervisoes:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:supervisor:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:supervisor:qk]</rows>
+        <cols>([federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:leave:nk] / [federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk])</cols>
+      </table>
+      <simple-id uuid='{F56FF27E-1698-4C09-A5BF-4846B7D838F3}' />
+    </worksheet>
+    <worksheet name='permisolaboral'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>¿Cómo de sencillo es para ti pedir un permiso laboral por salud mental?</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#d9d9e3' fontname='Consolas' fontsize='11'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column-instance column='[leave]' derivation='Count' name='[cnt:leave:qk]' pivot='key' type='quantitative' />
+            <column caption='Leave' datatype='string' name='[leave]' role='dimension' type='nominal' />
+            <column-instance column='[leave]' derivation='None' name='[none:leave:nk]' pivot='key' type='nominal' />
+            <column-instance column='[leave]' derivation='Count' name='[pcto:cnt:leave:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <computed-sort column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:leave:nk]' direction='DESC' using='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[cnt:leave:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:leave:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:leave:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:leave:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:leave:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:leave:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:leave:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Facilidad de pedir una baja&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:leave:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:leave:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='12' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.2853591442108154' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:leave:qk]</rows>
+        <cols>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:leave:nk]</cols>
+      </table>
+      <simple-id uuid='{233A9C5D-5778-4854-8D83-40A1C19F8026}' />
+    </worksheet>
+    <worksheet name='personas en tratamiento'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Personas en tratamiento por salud mental</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column-instance column='[treatment]' derivation='Count' name='[cnt:treatment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[treatment]' derivation='None' name='[none:treatment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[treatment]' derivation='Count' name='[pcto:cnt:treatment:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Treatment' datatype='string' name='[treatment]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:treatment:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='vertical-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='bottom' />
+            <format attr='text-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='center' />
+            <format attr='text-orientation' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='-90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[cnt:treatment:qk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:treatment:qk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Tratamiento:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Recuento de tratamiento:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[cnt:treatment:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:treatment:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='12'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:treatment:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontsize='12'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{893F62FC-285C-418E-B983-459CF69DA571}' />
+    </worksheet>
+    <worksheet name='supervisor'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='12'>¿Estarías dispuesto/a a hablar sobre un problema de salud mental con tus supervisores directos?</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='12'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column-instance column='[supervisor]' derivation='None' name='[none:supervisor:nk]' pivot='key' type='nominal' />
+            <column-instance column='[supervisor]' derivation='Count' name='[pcto:cnt:supervisor:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Supervisor' datatype='string' name='[supervisor]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:supervisor:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:supervisor:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:supervisor:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Hablarías con tu supervisor:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:supervisor:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:supervisor:qk]</rows>
+        <cols>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk]</cols>
+      </table>
+      <simple-id uuid='{2258538A-BD5D-4784-84C1-056F126155E4}' />
+    </worksheet>
+    <worksheet name='tr/tratamiento'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Porcentaje de empleados en modalidad presencial que están en tratamiento</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column-instance column='[remote_work]' derivation='None' name='[none:remote_work:nk]' pivot='key' type='nominal' />
+            <column-instance column='[treatment]' derivation='None' name='[none:treatment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[treatment]' derivation='Count' name='[pcto:cnt:treatment:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Remote Work' datatype='string' name='[remote_work]' role='dimension' type='nominal' />
+            <column caption='Treatment' datatype='string' name='[treatment]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:remote_work:nk]'>
+            <groupfilter function='member' level='[none:remote_work:nk]' member='&quot;No&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <natural-sort column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' direction='DESC' />
+          <slices>
+            <column>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:remote_work:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:treatment:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:treatment:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:remote_work:nk]' value='false' />
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:treatment:qk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:treatment:qk]</rows>
+        <cols>([federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:remote_work:nk] / [federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk])</cols>
+      </table>
+      <simple-id uuid='{34A71362-E0BA-4820-8EB3-967EFA116F39}' />
+    </worksheet>
+    <worksheet name='trat/gen'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Empleados en tratamiento por salud mental por género</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[treatment]' derivation='None' name='[none:treatment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='Count' name='[pcto:cnt:gender:qk:4]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column caption='Treatment' datatype='string' name='[treatment]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk:4]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk:4]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='text-align' data-class='subtotal' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='center' />
+            <format attr='vertical-align' data-class='subtotal' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='center' />
+            <format attr='text-orientation' data-class='subtotal' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' value='false' />
+            <format attr='text-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='center' />
+            <format attr='vertical-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk:4]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Género:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Tratamiento:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk:4]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk] / [federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk])</rows>
+        <cols>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:gender:qk:4]</cols>
+      </table>
+      <simple-id uuid='{8EB29115-FC57-49CA-B61F-1BBDEA8E9874}' />
+    </worksheet>
+    <worksheet name='tratamiento/vl'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>¿Estar en tratamiento interfiere con tu vida laboral?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='saludmental_cal' name='federated.0w9gwwu132qpof19t0a4c18jhsr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w9gwwu132qpof19t0a4c18jhsr6'>
+            <column-instance column='[treatment]' derivation='None' name='[none:treatment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[work_interfere]' derivation='None' name='[none:work_interfere:nk]' pivot='key' type='nominal' />
+            <column-instance column='[work_interfere]' derivation='Count' name='[pcto:cnt:work_interfere:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column caption='Treatment' datatype='string' name='[treatment]' role='dimension' type='nominal' />
+            <column caption='Work Interfere' datatype='string' name='[work_interfere]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]'>
+            <groupfilter function='member' level='[none:treatment:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:work_interfere:qk:2]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:work_interfere:qk:2]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:work_interfere:nk]' value='false' />
+            <format attr='display' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:work_interfere:qk:2]' value='false' />
+            <format attr='text-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='center' />
+            <format attr='vertical-align' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='center' />
+            <format attr='wrap' field='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' value='on' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:work_interfere:nk]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:work_interfere:qk:2]' />
+              <text column='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:work_interfere:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Tratamiento:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Interfiere en el trabajo:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:work_interfere:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>% de total:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:work_interfere:qk:2]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.75762432813644409' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk] / [federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:work_interfere:nk])</rows>
+        <cols>[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:work_interfere:qk:2]</cols>
+      </table>
+      <simple-id uuid='{C20B6D7F-370B-4F42-814F-42079F25D1D5}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='33333' id='1' type-v2='empty' w='33333' x='17083' y='617' />
+      </zones>
+      <devicelayouts>
+        <devicelayout name='Phone' />
+      </devicelayouts>
+      <simple-id uuid='{2918C93B-B451-4F41-AE44-66D2376390CA}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='EDA'>
+      <style />
+      <size maxheight='1610' maxwidth='1680' minheight='1610' minwidth='1680' sizing-mode='fixed' />
+      <zones>
+        <zone forceUpdate='true' h='10124' id='3' type-v2='text' w='81310' x='8095' y='1242'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='28'>EDA</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontsize='20'>Encuesta sobre salud mental de trabajadores en empresas tech de California con más de 1000 empleados</run>
+          </formatted-text>
+        </zone>
+        <zone h='24534' id='10' name='edad' w='42738' x='-357' y='19193' />
+        <zone h='17081' id='12' name='género' w='16131' x='47500' y='20311' />
+        <zone h='22174' id='13' name='trat/gen' w='38988' x='1786' y='48447' />
+        <zone h='22236' id='14' name='personas en tratamiento' w='15714' x='44881' y='48199' />
+        <zone forceUpdate='true' h='3727' id='15' type-v2='text' w='32381' x='1190' y='15342'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='16' underline='true'>Perfiles personales de los encuestados</run>
+          </formatted-text>
+        </zone>
+        <zone h='17516' id='17' name='historial' w='33274' x='65238' y='20062' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1650' minheight='1650' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99006' id='19' param='vert' type-v2='layout-flow' w='99048' x='476' y='497'>
+                <zone forceUpdate='true' h='10124' id='3' type-v2='text' w='81310' x='8095' y='1242'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='28'>EDA</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontsize='20'>Encuesta sobre salud mental de trabajadores en empresas tech de California con más de 1000 empleados</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3727' id='15' type-v2='text' w='32381' x='1190' y='15342'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='16' underline='true'>Perfiles personales de los encuestados</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='24534' id='10' is-fixed='true' name='edad' w='42738' x='-357' y='19193'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='17516' id='17' is-fixed='true' name='historial' w='33274' x='65238' y='20062'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='275' h='17081' id='12' is-fixed='true' name='género' w='16131' x='47500' y='20311'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='22236' id='14' is-fixed='true' name='personas en tratamiento' w='15714' x='44881' y='48199'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='22174' id='13' is-fixed='true' name='trat/gen' w='38988' x='1786' y='48447'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EE5A7B63-74B2-4E20-843F-1EEDBE1F2368}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' name='edad'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:Age (agrupación):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6C0389D6-F4A4-4735-B91E-89BD6C932506}' />
+    </window>
+    <window class='worksheet' name='género'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[cnt:gender:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{C4A30308-D676-44D9-8255-5CF0F88D1CDA}' />
+    </window>
+    <window class='worksheet' name='trat/gen'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{1EB95575-1FE3-4D04-AE64-C5ACE75B890E}' />
+    </window>
+    <window class='worksheet' name='personas en tratamiento'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{D09E546B-8168-4577-81ED-AFBD927C2ADB}' />
+    </window>
+    <window class='worksheet' name='historial'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:family_history:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{D7A3B304-E8BF-4EC5-8AC4-8BB17FF55C2C}' />
+    </window>
+    <window class='worksheet' name='permisolaboral'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:leave:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{BA8608BF-F1E5-4B14-995C-778FD56C8515}' />
+    </window>
+    <window class='worksheet' name='ayuda'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{37C65079-4E63-4B97-A3C4-A46ACDBA6EAE}' />
+    </window>
+    <window class='worksheet' name='ayuda/genero'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:gender:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{B33FCF78-EC6F-42D6-AA70-3F489C05D4A0}' />
+    </window>
+    <window class='worksheet' name='tratamiento/vl' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:work_interfere:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{4AF64F01-FA63-4E2C-8073-B5DD1A2613CC}' />
+    </window>
+    <window class='worksheet' name='tr/tratamiento'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:treatment:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{EEB5D72F-0E1C-4E7C-B843-946E2E2AAF21}' />
+    </window>
+    <window class='worksheet' name='cons_sm' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{A840E5C8-E7D0-4F68-8190-C4D1DDB4EB3C}' />
+    </window>
+    <window class='worksheet' name='cons_sf' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:phys_health_consequence:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{5004DF95-08B8-4BFF-B9CA-7460BB894C90}' />
+    </window>
+    <window class='worksheet' name='compañeros'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:coworkers:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{AACD2169-51B3-42DA-98F7-461FF4BB34B7}' />
+    </window>
+    <window class='worksheet' name='supervisor' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{3085669C-862C-4761-B141-D9877B29B2CC}' />
+    </window>
+    <window class='worksheet' name='ayuda/consecuencias' tab-color='#6e597f'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:mental_health_consequence:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{311AD6E1-B45B-4DD2-AEE4-61FB17EA96D6}' />
+    </window>
+    <window class='worksheet' name='ayuda/bienestar' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{3ECBF96A-E374-4E67-A6D1-5B9134D5A463}' />
+    </window>
+    <window class='worksheet' name='permiso/supervisores' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:supervisor:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{F848DADC-EF62-4725-9C12-AD4F0EA4A8A0}' />
+    </window>
+    <window class='worksheet' name='anonim/ayuda' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[none:seek_help:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0w9gwwu132qpof19t0a4c18jhsr6].[pcto:cnt:seek_help:qk:3]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{A40D897B-C177-402E-A044-D8E97BC30D13}' />
+    </window>
+    <window class='worksheet' name='Hoja 19'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5D648E3B-50A1-48E2-9A2C-B0757DF447A0}' />
+    </window>
+    <window class='dashboard' name='EDA'>
+      <viewpoints>
+        <viewpoint name='edad'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='género'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='historial'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='personas en tratamiento'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='trat/gen'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{5AD03796-97F8-4801-9EC7-750BD6FE9696}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 2'>
+      <viewpoints />
+      <active id='1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{7C78BD04-76F4-4E26-BF14-631DF8042C7F}' />
+    </window>
+  </windows>
+</workbook>

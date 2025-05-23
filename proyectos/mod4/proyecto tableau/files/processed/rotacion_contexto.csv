@@ -1,0 +1,260 @@
+,genero,años_en_la_empresa,años_con_el_mismo_jefe,salario_anual,nivel_laboral,trabajo_remoto,horas_extra,distancia_al_trabajo_km,jornada_laboral_estandar,frecuencia_viajes_negocio,equilibrio_vida_trabajo,satisfaccion_ambiente_laboral,nivel_compromiso_laboral,nivel_satisfaccion_laboral
+13,female,22,8,195450.0,Liderazgo/Management,no,no,12.0,full_time,travel_rarely,Alto,Medio,Alto,Alto
+16,male,31,8,192460.0,Liderazgo/Management,no,yes,2.0,full_time,travel_rarely,Alto,Muy alto,Alto,Medio
+26,female,32,9,198450.0,Liderazgo/Management,yes,no,2.0,full_time,unknown,Alto,Bajo,Bajo,Muy alto
+43,female,17,14,28111.13,Junior,yes,none,16.0,part_time,travel_rarely,Alto,Alto,Muy alto,Bajo
+52,male,13,0,53914.11,Senior/Especialista,no,none,10.0,none,travel_rarely,Alto,Muy alto,Medio,Bajo
+81,female,40,6,100071.84,Senior/Especialista,yes,none,23.0,part_time,travel_rarely,Medio,Muy alto,Alto,Muy alto
+98,female,24,11,191324.62,Liderazgo/Management,yes,yes,7.0,full_time,unknown,Alto,Bajo,Bajo,Medio
+132,male,10,8,28111.13,Junior,no,none,1.0,part_time,travel_rarely,Medio,Muy alto,Alto,Muy alto
+140,male,21,14,153407.07,Director/Executive,yes,none,7.0,full_time,travel_frequently,Medio,Alto,Alto,Bajo
+152,female,10,9,53914.11,Senior/Especialista,yes,none,7.0,none,unknown,Medio,Alto,Medio,Bajo
+158,female,15,10,53914.11,Empleado/Desarrollador,no,yes,24.0,part_time,travel_rarely,Muy alto,Bajo,Medio,Medio
+163,male,11,7,53914.11,Empleado/Desarrollador,yes,none,12.0,part_time,unknown,Muy alto,Muy alto,Alto,Muy alto
+172,male,10,8,28111.13,Junior,yes,no,7.0,part_time,unknown,Bajo,Muy alto,Alto,Alto
+180,male,9,7,96190.0,Senior/Especialista,no,no,9.0,part_time,unknown,Alto,Alto,Medio,Muy alto
+188,male,14,8,104000.0,Senior/Especialista,no,no,4.0,full_time,travel_rarely,Medio,Muy alto,Bajo,Muy alto
+201,male,10,7,33480.0,Junior,no,yes,3.0,full_time,unknown,Alto,Bajo,Alto,Bajo
+205,female,9,7,76540.0,Senior/Especialista,no,no,11.0,part_time,unknown,Muy alto,Alto,Alto,Muy alto
+218,female,11,10,100071.84,Senior/Especialista,yes,none,23.0,part_time,unknown,Bajo,Muy alto,Medio,Bajo
+229,female,10,7,53914.11,Senior/Especialista,yes,none,1.0,none,travel_frequently,Alto,Alto,Muy alto,Medio
+237,male,10,7,97140.0,Empleado/Desarrollador,yes,no,1.0,full_time,travel_rarely,Alto,Medio,Medio,Bajo
+272,male,9,6,60740.0,Empleado/Desarrollador,yes,yes,7.0,full_time,travel_frequently,Alto,Bajo,Bajo,Alto
+276,male,7,7,61720.0,Empleado/Desarrollador,no,none,6.0,full_time,unknown,Medio,Medio,Bajo,Alto
+293,female,9,7,28111.13,Junior,yes,no,2.0,part_time,travel_rarely,Muy alto,Bajo,Alto,Bajo
+299,male,10,9,53914.11,Senior/Especialista,yes,none,7.0,none,non_travel,Medio,Bajo,Alto,Medio
+303,male,8,4,53914.11,Empleado/Desarrollador,yes,none,7.0,none,travel_rarely,Alto,Muy alto,Medio,Muy alto
+310,male,7,7,53914.11,Junior,no,none,8.0,none,travel_rarely,Medio,Medio,Bajo,Bajo
+316,male,8,7,53914.11,Empleado/Desarrollador,no,no,4.0,part_time,unknown,Alto,Bajo,Alto,Medio
+326,female,7,0,53914.11,Junior,yes,yes,17.0,none,travel_frequently,Alto,Medio,Alto,Alto
+345,female,7,7,22160.0,Junior,yes,yes,7.0,part_time,unknown,Alto,Alto,Bajo,Medio
+357,male,9,3,53914.11,Empleado/Desarrollador,no,none,2.0,part_time,unknown,Medio,Alto,Alto,Muy alto
+359,female,8,7,23660.0,Junior,yes,none,5.0,part_time,unknown,Alto,Alto,Medio,Alto
+361,female,7,0,53914.11,Junior,yes,yes,2.0,none,unknown,Medio,Medio,Bajo,Muy alto
+366,male,16,7,103250.0,Senior/Especialista,no,none,3.0,full_time,travel_rarely,Alto,Alto,Medio,Muy alto
+380,male,10,9,100071.84,Senior/Especialista,no,no,24.0,part_time,non_travel,Medio,Medio,Medio,Bajo
+382,male,8,7,100071.84,Senior/Especialista,yes,none,4.0,part_time,unknown,Alto,Muy alto,Alto,Bajo
+383,female,13,8,53914.11,Empleado/Desarrollador,yes,no,7.0,part_time,travel_frequently,Alto,Alto,Medio,Alto
+384,male,7,6,28111.13,Junior,yes,none,4.0,part_time,unknown,Muy alto,Muy alto,Alto,Muy alto
+388,male,18,5,153407.07,Director/Executive,no,no,2.0,full_time,travel_frequently,Alto,Bajo,Alto,Muy alto
+407,female,10,5,100071.84,Senior/Especialista,yes,none,15.0,part_time,travel_rarely,Alto,Bajo,Alto,Muy alto
+408,female,7,7,53914.11,Junior,yes,yes,7.0,none,unknown,Alto,Medio,Alto,Alto
+411,male,8,7,100071.84,Senior/Especialista,yes,yes,5.0,part_time,unknown,Medio,Medio,Alto,Medio
+417,male,19,8,153407.07,Director/Executive,yes,none,13.0,full_time,unknown,Medio,Bajo,Muy alto,Alto
+422,female,8,7,100071.84,Senior/Especialista,yes,yes,14.0,part_time,unknown,Alto,Alto,Alto,Muy alto
+427,male,7,3,53914.11,Senior/Especialista,yes,no,9.0,none,unknown,Muy alto,Bajo,Alto,Muy alto
+431,male,9,7,23620.0,Junior,yes,no,1.0,part_time,unknown,Bajo,Bajo,Medio,Bajo
+435,female,33,9,100071.84,Senior/Especialista,yes,none,2.0,part_time,unknown,Alto,Alto,Medio,Muy alto
+446,female,9,7,53914.11,Junior,no,none,7.0,none,travel_frequently,Alto,Muy alto,Alto,Alto
+458,male,10,7,53914.11,Empleado/Desarrollador,no,none,27.0,none,unknown,Alto,Alto,Alto,Muy alto
+461,female,9,7,53914.11,Empleado/Desarrollador,no,no,7.0,none,travel_rarely,Muy alto,Muy alto,Alto,Medio
+464,female,8,7,73140.0,Senior/Especialista,yes,none,10.0,part_time,unknown,Alto,Alto,Alto,Medio
+474,male,10,8,53914.11,Empleado/Desarrollador,yes,yes,26.0,part_time,travel_frequently,Alto,Bajo,Alto,Muy alto
+493,male,7,7,100071.84,Senior/Especialista,yes,none,15.0,part_time,travel_rarely,Muy alto,Medio,Alto,Alto
+505,male,20,6,104820.0,Senior/Especialista,yes,no,1.0,full_time,unknown,Alto,Medio,Medio,Bajo
+557,male,23,10,129360.0,Director/Executive,yes,no,9.0,full_time,unknown,Bajo,Alto,Bajo,Alto
+558,female,6,5,53914.11,Empleado/Desarrollador,no,yes,1.0,part_time,unknown,Bajo,Medio,Alto,Muy alto
+565,male,6,3,53914.11,Empleado/Desarrollador,yes,yes,5.0,none,travel_rarely,Alto,Alto,Medio,Alto
+566,female,5,3,49630.0,Junior,yes,none,14.0,full_time,unknown,Alto,Medio,Alto,Medio
+568,female,5,4,53914.11,Junior,no,no,9.0,none,unknown,Muy alto,Bajo,Alto,Bajo
+574,female,10,9,76390.0,Senior/Especialista,yes,none,27.0,part_time,unknown,Medio,Medio,Alto,Muy alto
+576,male,5,4,53914.11,Junior,no,yes,14.0,none,unknown,Bajo,Alto,Alto,Muy alto
+577,male,5,4,28111.13,Junior,yes,no,29.0,part_time,unknown,Muy alto,Alto,Medio,Medio
+585,male,6,0,63800.0,Empleado/Desarrollador,yes,yes,7.0,full_time,unknown,Alto,Alto,Medio,Alto
+587,male,6,4,31020.0,Junior,yes,none,3.0,full_time,travel_frequently,Alto,Alto,Alto,Bajo
+599,female,5,3,53914.11,Empleado/Desarrollador,no,yes,27.0,part_time,unknown,Alto,Medio,Muy alto,Alto
+616,male,6,2,29360.0,Junior,no,yes,10.0,full_time,unknown,Alto,Alto,Alto,Alto
+622,male,10,1,48830.0,Empleado/Desarrollador,yes,none,7.0,part_time,travel_rarely,Alto,Muy alto,Alto,Alto
+623,male,5,0,100071.84,Senior/Especialista,yes,yes,25.0,part_time,unknown,Alto,Muy alto,Medio,Medio
+637,male,5,0,28111.13,Junior,no,none,9.0,part_time,unknown,Bajo,Muy alto,Alto,Bajo
+648,male,5,2,39890.0,Junior,yes,none,8.0,full_time,travel_rarely,Alto,Muy alto,Medio,Alto
+662,male,5,3,28111.13,Junior,no,no,9.0,part_time,travel_rarely,Alto,Alto,Medio,Bajo
+679,female,4,2,28111.13,Junior,yes,yes,20.0,part_time,travel_rarely,Medio,Medio,Alto,Medio
+682,female,6,1,53914.11,Empleado/Desarrollador,yes,none,26.0,part_time,unknown,Medio,Alto,Medio,Bajo
+683,male,4,1,23890.0,Junior,yes,none,7.0,part_time,travel_rarely,Alto,Alto,Medio,Muy alto
+696,female,5,4,28111.13,Junior,yes,yes,1.0,part_time,travel_rarely,Alto,Bajo,Alto,Medio
+699,male,4,3,34080.0,Junior,no,no,10.0,full_time,travel_rarely,Alto,Bajo,Bajo,Muy alto
+704,female,6,2,28111.13,Junior,yes,none,7.0,part_time,travel_frequently,Alto,Bajo,Alto,Alto
+706,male,4,2,28111.13,Junior,yes,no,2.0,part_time,travel_rarely,Alto,Alto,Alto,Bajo
+707,male,4,3,53914.11,Empleado/Desarrollador,no,none,8.0,part_time,unknown,Alto,Medio,Alto,Alto
+711,male,4,2,53260.0,Empleado/Desarrollador,yes,no,8.0,part_time,unknown,Medio,Muy alto,Medio,Bajo
+736,female,4,3,53914.11,Empleado/Desarrollador,yes,no,9.0,part_time,unknown,Medio,Bajo,Bajo,Alto
+747,male,4,3,53914.11,Empleado/Desarrollador,yes,no,28.0,part_time,travel_frequently,Alto,Bajo,Medio,Bajo
+751,female,5,0,53914.11,Empleado/Desarrollador,no,no,13.0,none,unknown,Bajo,Bajo,Alto,Medio
+769,male,5,3,28111.13,Junior,yes,yes,1.0,part_time,unknown,Medio,Alto,Alto,Medio
+773,male,10,8,42130.0,Empleado/Desarrollador,yes,none,10.0,part_time,travel_rarely,Alto,Muy alto,Alto,Bajo
+790,male,6,1,53914.11,Empleado/Desarrollador,yes,no,1.0,part_time,unknown,Alto,Medio,Alto,Alto
+800,male,4,3,28111.13,Junior,yes,yes,24.0,part_time,travel_rarely,Alto,Alto,Medio,Alto
+804,male,4,3,29600.0,Junior,yes,no,6.0,full_time,unknown,Alto,Medio,Alto,Bajo
+805,female,10,7,28111.13,Junior,no,none,16.0,part_time,travel_frequently,Alto,Medio,Bajo,Bajo
+808,male,3,2,26830.0,Junior,yes,none,3.0,part_time,travel_rarely,Alto,Bajo,Medio,Alto
+810,male,2,2,34410.0,Junior,yes,yes,5.0,none,unknown,Medio,Alto,Alto,Alto
+820,male,3,2,28111.13,Junior,yes,none,6.0,none,travel_rarely,Alto,Alto,Alto,Bajo
+825,female,2,2,53914.11,Empleado/Desarrollador,yes,yes,20.0,part_time,travel_rarely,Alto,Medio,Bajo,Alto
+827,male,4,3,106500.0,Senior/Especialista,no,none,7.0,full_time,travel_frequently,Alto,Bajo,Bajo,Muy alto
+847,female,5,4,53914.11,Junior,yes,yes,3.0,none,unknown,Alto,Muy alto,Alto,Bajo
+848,male,6,5,28111.13,Junior,no,none,1.0,part_time,unknown,Medio,Alto,Alto,Alto
+853,male,3,2,53914.11,Junior,yes,none,1.0,none,unknown,Bajo,Muy alto,Medio,Alto
+867,male,3,2,28111.13,Junior,no,yes,16.0,part_time,travel_rarely,Alto,Bajo,Alto,Medio
+874,male,8,7,49410.0,Empleado/Desarrollador,no,no,7.0,part_time,unknown,Medio,Alto,Medio,Medio
+875,male,3,2,53914.11,Junior,yes,yes,2.0,none,unknown,Medio,Bajo,Bajo,Muy alto
+882,female,3,2,21740.0,Junior,yes,none,7.0,part_time,unknown,Alto,Bajo,Medio,Medio
+890,male,5,4,53040.0,Empleado/Desarrollador,yes,yes,19.0,part_time,non_travel,Medio,Bajo,Muy alto,Muy alto
+898,male,2,2,28111.13,Junior,yes,no,3.0,part_time,travel_rarely,Alto,Bajo,Alto,Bajo
+901,female,2,0,28111.13,Junior,yes,no,6.0,part_time,travel_frequently,Medio,Muy alto,Bajo,Alto
+904,female,2,1,25460.0,Junior,no,no,25.0,part_time,unknown,Muy alto,Alto,Medio,Medio
+908,female,3,2,100071.84,Senior/Especialista,no,yes,23.0,part_time,travel_frequently,Alto,Medio,Alto,Bajo
+910,male,2,2,38940.0,Junior,yes,no,7.0,full_time,unknown,Alto,Alto,Medio,Alto
+913,male,4,2,53914.11,Empleado/Desarrollador,yes,none,11.0,part_time,unknown,Alto,Muy alto,Muy alto,Alto
+929,female,2,0,45770.0,Empleado/Desarrollador,yes,no,3.0,part_time,travel_rarely,Alto,Bajo,Alto,Alto
+934,male,2,2,28111.13,Junior,yes,none,19.0,part_time,unknown,Alto,Alto,Muy alto,Alto
+940,male,5,4,53914.11,Liderazgo/Management,no,yes,2.0,none,unknown,Alto,Muy alto,Alto,Bajo
+948,female,3,2,53240.0,Empleado/Desarrollador,no,none,16.0,part_time,travel_rarely,Alto,Bajo,Alto,Bajo
+950,male,2,1,43820.0,Junior,yes,no,2.0,full_time,unknown,Medio,Alto,Alto,Alto
+959,female,10,8,20220.0,Junior,yes,none,25.0,part_time,travel_frequently,Medio,Muy alto,Alto,Medio
+964,female,3,2,28111.13,Junior,no,yes,1.0,part_time,travel_rarely,Alto,Medio,Medio,Alto
+967,female,2,2,28111.13,Junior,yes,none,2.0,part_time,travel_rarely,Medio,Alto,Medio,Alto
+969,female,3,2,53914.11,Empleado/Desarrollador,yes,yes,3.0,part_time,travel_rarely,Muy alto,Medio,Alto,Alto
+971,male,2,2,24040.0,Junior,yes,none,6.0,part_time,unknown,Bajo,Muy alto,Alto,Bajo
+975,male,3,2,28111.13,Junior,no,yes,9.0,part_time,unknown,Alto,Alto,Medio,Bajo
+978,female,5,1,28111.13,Junior,yes,none,22.0,part_time,travel_rarely,Alto,Bajo,Alto,Alto
+980,male,4,2,28111.13,Junior,no,yes,14.0,part_time,travel_rarely,Bajo,Alto,Medio,Medio
+981,female,3,2,28111.13,Junior,yes,none,5.0,part_time,unknown,Alto,Medio,Alto,Medio
+986,male,2,2,49690.0,Empleado/Desarrollador,yes,no,29.0,part_time,non_travel,Alto,Medio,Bajo,Bajo
+988,male,3,2,20420.0,Junior,yes,none,2.0,part_time,unknown,Alto,Bajo,Alto,Bajo
+991,female,2,2,28111.13,Junior,yes,yes,9.0,part_time,unknown,Alto,Muy alto,Alto,Muy alto
+998,male,2,2,28111.13,Junior,no,yes,25.0,part_time,unknown,Alto,Bajo,Medio,Medio
+1004,female,5,3,82240.0,Empleado/Desarrollador,no,none,9.0,full_time,unknown,Alto,Bajo,Alto,Bajo
+1005,male,2,2,26100.0,Junior,yes,no,15.0,part_time,unknown,Medio,Alto,Alto,Alto
+1017,female,2,2,53914.11,Junior,yes,none,10.0,none,travel_frequently,Bajo,Bajo,Medio,Alto
+1025,male,5,3,39040.0,Junior,no,none,23.0,full_time,unknown,Alto,Alto,Alto,Bajo
+1029,female,3,2,23020.0,Junior,no,yes,1.0,part_time,unknown,Muy alto,Muy alto,Alto,Medio
+1030,male,3,2,53914.11,Junior,yes,no,3.0,none,unknown,Muy alto,Bajo,Alto,Bajo
+1036,female,4,2,53914.11,Empleado/Desarrollador,yes,none,18.0,part_time,unknown,Medio,Muy alto,Alto,Alto
+1038,male,10,7,53914.11,Empleado/Desarrollador,yes,none,22.0,part_time,unknown,Medio,Muy alto,Alto,Alto
+1044,female,8,7,23940.0,Junior,yes,yes,7.0,part_time,travel_rarely,Alto,Muy alto,Alto,Alto
+1051,male,3,2,44000.0,Junior,yes,no,9.0,full_time,travel_rarely,Alto,Bajo,Medio,Bajo
+1055,male,2,2,28111.13,Junior,yes,none,2.0,part_time,travel_frequently,Bajo,Medio,Alto,Muy alto
+1057,female,2,2,53914.11,Junior,no,no,9.0,none,unknown,Alto,Bajo,Alto,Alto
+1061,male,3,2,29090.0,Junior,no,none,1.0,full_time,unknown,Muy alto,Bajo,Alto,Alto
+1068,female,7,7,28111.13,Junior,yes,no,3.0,part_time,travel_frequently,Alto,Muy alto,Alto,Alto
+1073,male,5,4,53914.11,Empleado/Desarrollador,no,none,2.0,none,travel_rarely,Alto,Alto,Alto,Medio
+1090,male,2,2,53914.11,Empleado/Desarrollador,no,yes,7.0,part_time,unknown,Medio,Bajo,Bajo,Muy alto
+1093,male,4,3,21660.0,Junior,yes,yes,7.0,part_time,travel_rarely,Bajo,Bajo,Alto,Bajo
+1106,male,3,2,28111.13,Junior,no,yes,7.0,part_time,unknown,Alto,Alto,Alto,Muy alto
+1112,male,2,2,53914.11,Empleado/Desarrollador,yes,yes,13.0,part_time,unknown,Alto,Medio,Medio,Bajo
+1115,female,4,2,53914.11,Junior,no,no,7.0,none,travel_frequently,Medio,Alto,Medio,Muy alto
+1118,female,2,2,27600.0,Junior,yes,none,9.0,part_time,travel_rarely,Alto,Medio,Bajo,Medio
+1131,male,2,0,28111.13,Junior,no,none,13.0,part_time,travel_rarely,Alto,Bajo,Medio,Bajo
+1134,male,2,2,53914.11,Empleado/Desarrollador,yes,yes,2.0,part_time,travel_rarely,Medio,Alto,Medio,Medio
+1139,male,5,0,28111.13,Junior,yes,none,16.0,part_time,non_travel,Alto,Muy alto,Bajo,Bajo
+1140,male,4,0,25870.0,Junior,yes,no,24.0,part_time,travel_rarely,Alto,Bajo,Alto,Muy alto
+1149,male,2,2,53914.11,Senior/Especialista,yes,yes,24.0,none,unknown,Medio,Bajo,Alto,Bajo
+1161,male,2,2,47870.0,Junior,yes,none,7.0,full_time,travel_rarely,Muy alto,Alto,Alto,Muy alto
+1165,male,3,0,53914.11,Senior/Especialista,yes,none,7.0,none,travel_rarely,Alto,Muy alto,Medio,Bajo
+1183,male,3,2,53914.11,Empleado/Desarrollador,no,no,13.0,none,unknown,Bajo,Medio,Alto,Bajo
+1184,female,1,0,53914.11,Empleado/Desarrollador,yes,none,26.0,part_time,unknown,Alto,Bajo,Alto,Bajo
+1192,male,14,7,100071.84,Senior/Especialista,yes,none,1.0,part_time,unknown,Bajo,Bajo,Medio,Alto
+1198,male,1,0,23770.0,Junior,no,no,21.0,part_time,unknown,Medio,Bajo,Alto,Alto
+1200,female,1,0,28111.13,Junior,yes,none,12.0,none,unknown,Medio,Alto,Alto,Muy alto
+1205,female,1,0,28111.13,Junior,yes,none,10.0,part_time,unknown,Muy alto,Bajo,Medio,Medio
+1213,male,1,0,28111.13,Junior,no,none,24.0,part_time,travel_rarely,Alto,Alto,Alto,Medio
+1217,male,7,7,53914.11,Empleado/Desarrollador,no,none,9.0,part_time,travel_frequently,Medio,Muy alto,Alto,Bajo
+1219,female,5,4,21480.0,Junior,yes,yes,20.0,part_time,travel_rarely,Alto,Muy alto,Alto,Medio
+1222,female,4,3,28111.13,Junior,no,yes,5.0,part_time,travel_frequently,Alto,Bajo,Muy alto,Alto
+1224,male,4,3,28111.13,Junior,yes,no,17.0,part_time,unknown,Medio,Alto,Medio,Muy alto
+1226,male,0,0,20900.0,Junior,yes,yes,2.0,none,travel_rarely,Alto,Muy alto,Medio,Alto
+1232,male,1,0,20860.0,Empleado/Desarrollador,yes,no,7.0,part_time,travel_rarely,Muy alto,Alto,Alto,Muy alto
+1233,male,2,0,28111.13,Junior,no,yes,1.0,part_time,travel_rarely,Alto,Medio,Alto,Muy alto
+1236,male,1,1,53914.11,Junior,no,none,25.0,none,unknown,Medio,Bajo,Bajo,Alto
+1239,male,1,0,100071.84,Senior/Especialista,no,none,1.0,part_time,unknown,Alto,Bajo,Medio,Alto
+1243,male,1,0,33880.0,Junior,yes,none,9.0,full_time,unknown,Medio,Muy alto,Medio,Alto
+1249,female,1,0,53914.11,Junior,no,yes,6.0,none,unknown,Alto,Muy alto,Medio,Muy alto
+1254,male,0,0,28111.13,Junior,yes,yes,22.0,part_time,travel_rarely,Medio,Muy alto,Alto,Alto
+1259,female,0,0,28111.13,Junior,yes,no,1.0,part_time,travel_frequently,Alto,Alto,Bajo,Bajo
+1260,male,1,0,28111.13,Junior,yes,none,2.0,part_time,travel_rarely,Medio,Medio,Medio,Muy alto
+1261,male,1,1,53914.11,Empleado/Desarrollador,yes,yes,23.0,part_time,travel_rarely,Alto,Medio,Medio,Alto
+1263,male,1,0,66730.0,Empleado/Desarrollador,no,yes,29.0,full_time,unknown,Alto,Medio,Alto,Bajo
+1269,male,1,0,100480.0,Senior/Especialista,yes,no,10.0,full_time,unknown,Alto,Bajo,Alto,Alto
+1271,male,0,0,28111.13,Junior,no,none,2.0,part_time,travel_rarely,Bajo,Bajo,Alto,Alto
+1275,male,1,0,31610.0,Junior,yes,yes,7.0,full_time,travel_frequently,Bajo,Alto,Alto,Alto
+1277,male,0,0,53914.11,Junior,yes,no,3.0,none,unknown,Alto,Alto,Alto,Alto
+1280,female,1,0,52380.0,Empleado/Desarrollador,yes,yes,3.0,none,travel_rarely,Medio,Muy alto,Alto,Alto
+1288,female,1,0,28510.0,Junior,no,none,5.0,full_time,travel_rarely,Alto,Muy alto,Alto,Alto
+1290,female,1,0,53914.11,Junior,no,none,12.0,none,travel_rarely,Alto,Alto,Muy alto,Medio
+1292,male,1,0,22850.0,Junior,no,yes,4.0,part_time,travel_frequently,Alto,Alto,Alto,Muy alto
+1297,male,1,0,25640.0,Junior,yes,no,2.0,part_time,unknown,Muy alto,Bajo,Medio,Muy alto
+1301,male,1,0,98240.0,Senior/Especialista,yes,no,7.0,part_time,travel_frequently,Alto,Alto,Alto,Alto
+1302,male,0,0,18780.0,Junior,no,yes,5.0,part_time,travel_frequently,Alto,Medio,Alto,Medio
+1305,male,1,0,53914.11,Junior,yes,yes,7.0,none,travel_rarely,Bajo,Alto,Bajo,Muy alto
+1308,male,1,0,20330.0,Junior,yes,no,12.0,part_time,travel_frequently,Muy alto,Medio,Medio,Bajo
+1316,male,1,1,10090.0,Junior,yes,none,10.0,part_time,unknown,Alto,Muy alto,Alto,Alto
+1324,male,0,0,53914.11,Junior,no,yes,6.0,none,unknown,Alto,Alto,Muy alto,Bajo
+1326,female,1,0,28111.13,Junior,yes,none,1.0,part_time,travel_rarely,Alto,Medio,Medio,Bajo
+1335,male,1,1,28111.13,Junior,yes,none,25.0,part_time,travel_rarely,Bajo,Bajo,Alto,Muy alto
+1336,male,1,0,23800.0,Junior,yes,none,2.0,part_time,travel_frequently,Medio,Muy alto,Medio,Muy alto
+1338,female,1,0,28111.13,Junior,no,no,18.0,part_time,travel_rarely,Medio,Muy alto,Alto,Muy alto
+1343,male,1,0,24130.0,Junior,no,yes,19.0,part_time,unknown,Alto,Alto,Medio,Medio
+1345,male,1,0,21210.0,Junior,no,yes,21.0,part_time,unknown,Muy alto,Muy alto,Medio,Medio
+1346,male,1,0,28111.13,Junior,no,none,4.0,part_time,travel_rarely,Alto,Bajo,Alto,Bajo
+1348,male,1,0,24790.0,Junior,no,no,2.0,part_time,travel_rarely,Alto,Muy alto,Alto,Alto
+1349,female,1,0,131940.0,Director/Executive,yes,none,24.0,full_time,non_travel,Medio,Medio,Muy alto,Medio
+1350,female,0,0,28111.13,Junior,yes,yes,10.0,part_time,travel_rarely,Alto,Muy alto,Medio,Bajo
+1353,female,1,0,26000.0,Junior,no,yes,7.0,part_time,unknown,Alto,Muy alto,Medio,Bajo
+1356,female,1,0,47770.0,Empleado/Desarrollador,yes,no,11.0,part_time,travel_rarely,Bajo,Bajo,Bajo,Medio
+1358,male,1,0,53914.11,Empleado/Desarrollador,yes,none,15.0,part_time,unknown,Medio,Bajo,Alto,Alto
+1361,female,1,0,28111.13,Junior,yes,no,10.0,part_time,travel_rarely,Medio,Alto,Medio,Bajo
+1362,male,10,7,24610.0,Junior,no,none,4.0,part_time,travel_rarely,Muy alto,Bajo,Alto,Alto
+1364,male,1,0,25960.0,Junior,no,no,1.0,none,unknown,Alto,Bajo,Medio,Medio
+1365,male,0,0,47280.0,Empleado/Desarrollador,yes,yes,1.0,part_time,unknown,Alto,Muy alto,Alto,Alto
+1369,male,0,0,28111.13,Junior,yes,no,8.0,part_time,unknown,Alto,Alto,Alto,Alto
+1373,male,0,0,28530.0,Junior,yes,yes,3.0,full_time,unknown,Alto,Alto,Medio,Muy alto
+1375,male,1,0,21070.0,Junior,yes,no,5.0,part_time,non_travel,Bajo,Bajo,Medio,Bajo
+1377,female,1,0,22100.0,Junior,yes,none,17.0,part_time,unknown,Bajo,Muy alto,Alto,Medio
+1386,male,1,0,53914.11,Junior,yes,yes,7.0,none,travel_frequently,Alto,Alto,Bajo,Muy alto
+1392,female,1,0,28111.13,Junior,yes,no,2.0,part_time,travel_frequently,Muy alto,Alto,Medio,Muy alto
+1393,female,1,0,28111.13,Junior,no,none,1.0,part_time,travel_frequently,Alto,Medio,Bajo,Alto
+1394,female,1,0,28111.13,Junior,no,none,8.0,part_time,travel_rarely,Muy alto,Bajo,Medio,Medio
+1396,female,1,0,28111.13,Junior,yes,yes,2.0,none,unknown,Muy alto,Bajo,Medio,Bajo
+1400,male,0,0,28111.13,Junior,no,none,9.0,part_time,travel_frequently,Medio,Medio,Alto,Bajo
+1402,male,0,0,25610.0,Junior,yes,no,2.0,part_time,unknown,Medio,Alto,Medio,Bajo
+1409,female,1,0,53914.11,Junior,yes,none,7.0,none,travel_rarely,Alto,Alto,Alto,Bajo
+1417,female,0,0,15690.0,Junior,yes,yes,3.0,part_time,travel_frequently,Muy alto,Medio,Alto,Muy alto
+1422,male,1,0,13930.0,Junior,yes,no,2.0,part_time,travel_rarely,Alto,Muy alto,Alto,Medio
+1424,male,1,0,53914.11,Junior,yes,no,22.0,none,unknown,Alto,Muy alto,Bajo,Alto
+1428,male,0,0,67350.0,Empleado/Desarrollador,no,none,1.0,full_time,travel_rarely,Alto,Bajo,Bajo,Medio
+1431,female,0,0,100071.84,Senior/Especialista,yes,yes,16.0,part_time,unknown,Medio,Bajo,Alto,Bajo
+1432,male,1,0,53914.11,Senior/Especialista,yes,none,16.0,none,travel_rarely,Alto,Bajo,Alto,Alto
+1436,male,1,0,24370.0,Junior,no,yes,17.0,part_time,unknown,Alto,Alto,Medio,Alto
+1438,male,1,0,53914.11,Junior,yes,none,7.0,none,unknown,Alto,Medio,Alto,Medio
+1439,female,1,0,28111.13,Junior,yes,yes,7.0,part_time,travel_rarely,Alto,Alto,Alto,Bajo
+1443,male,1,0,29560.0,Junior,yes,no,18.0,full_time,travel_rarely,Alto,Muy alto,Muy alto,Bajo
+1449,male,1,0,24390.0,Junior,no,yes,24.0,part_time,unknown,Medio,Muy alto,Medio,Muy alto
+1451,male,1,0,53914.11,Junior,no,none,9.0,none,unknown,Medio,Medio,Alto,Muy alto
+1452,male,1,0,53914.11,Junior,yes,none,7.0,none,travel_rarely,Alto,Muy alto,Alto,Medio
+1455,male,1,0,10910.0,Junior,yes,no,24.0,part_time,travel_frequently,Alto,Alto,Muy alto,Bajo
+1456,female,2,2,53914.11,Empleado/Desarrollador,yes,yes,13.0,part_time,travel_rarely,Alto,Muy alto,Alto,Alto
+1461,female,1,0,28630.0,Junior,no,no,22.0,full_time,unknown,Alto,Bajo,Medio,Medio
+1468,male,1,0,53914.11,Junior,no,no,9.0,none,unknown,Alto,Muy alto,Alto,Bajo
+1473,female,40,6,100071.84,Senior/Especialista,yes,none,23.0,part_time,travel_rarely,Medio,Muy alto,Alto,Muy alto
+1484,male,3,2,53914.11,Junior,yes,none,2.0,none,unknown,Alto,Bajo,Alto,Bajo
+1491,female,5,3,82240.0,Empleado/Desarrollador,yes,none,9.0,full_time,unknown,Alto,Bajo,Alto,Bajo
+1492,male,2,2,26100.0,Junior,no,no,15.0,part_time,unknown,Medio,Alto,Alto,Alto
+1500,male,10,7,58130.0,Empleado/Desarrollador,yes,none,27.0,full_time,unknown,Alto,Alto,Alto,Muy alto
+1503,female,9,7,53914.11,Empleado/Desarrollador,no,no,21.0,part_time,travel_rarely,Muy alto,Muy alto,Alto,Medio
+1506,female,8,7,73140.0,Senior/Especialista,no,none,10.0,part_time,unknown,Alto,Alto,Alto,Medio
+1515,male,8,7,49410.0,Empleado/Desarrollador,no,no,8.0,part_time,unknown,Medio,Alto,Medio,Medio
+1516,male,3,2,28111.13,Junior,yes,yes,2.0,part_time,unknown,Medio,Bajo,Bajo,Muy alto
+1523,female,3,2,21740.0,Junior,no,none,1.0,part_time,unknown,Alto,Bajo,Medio,Medio
+1531,male,5,4,53914.11,Empleado/Desarrollador,yes,yes,7.0,none,non_travel,Medio,Bajo,Muy alto,Muy alto
+1539,male,2,2,28111.13,Junior,yes,no,3.0,part_time,travel_rarely,Alto,Bajo,Alto,Bajo
+1542,male,10,9,100071.84,Senior/Especialista,no,none,29.0,part_time,non_travel,Medio,Bajo,Alto,Medio
+1546,male,8,4,58280.0,Empleado/Desarrollador,yes,none,4.0,full_time,travel_rarely,Alto,Muy alto,Medio,Muy alto
+1553,male,7,7,53914.11,Junior,yes,none,8.0,none,travel_rarely,Medio,Medio,Bajo,Bajo
+1559,male,8,7,53914.11,Empleado/Desarrollador,yes,no,4.0,part_time,unknown,Alto,Bajo,Alto,Medio
+1569,female,7,0,27410.0,Junior,yes,yes,17.0,part_time,travel_frequently,Alto,Medio,Alto,Alto
+1588,female,7,7,22160.0,Junior,yes,yes,1.0,part_time,unknown,Alto,Bajo,Bajo,Medio
+1600,male,9,3,53914.11,Empleado/Desarrollador,yes,none,2.0,none,unknown,Medio,Alto,Alto,Muy alto
+1602,female,8,7,23660.0,Junior,yes,none,5.0,part_time,unknown,Alto,Alto,Medio,Alto
+1604,female,7,0,28111.13,Junior,yes,yes,2.0,part_time,unknown,Medio,Medio,Bajo,Muy alto
+1609,male,16,7,103250.0,Senior/Especialista,no,none,3.0,full_time,travel_rarely,Alto,Alto,Medio,Muy alto
