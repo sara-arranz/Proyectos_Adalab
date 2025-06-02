@@ -174,8 +174,6 @@ Descripción: Herramienta para desarrollo interactivo de código.
 Descripción: Sistema de gestión de bases de datos relacional utilizado para almacenar y gestionar datos.
 
 
-## 🎥 Presentación final del proyecto
-
 ## 📑 Informe final del proyecto
 
 Además de este README, hemos elaborado un informe final completo en formato PDF.
