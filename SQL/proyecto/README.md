@@ -1,9 +1,8 @@
 #  🎶 Evolución de la Música en la Pandemia
-**Proyecto realizado por `Brave Data`.**
 
 ## 1. 📍 Descripción del Proyecto
 
-`Music Stream` en colaboración con la `Fundación Armonía Social` nos solicitó un estudio sobre tendencias musicales durante la pandemia. El objetivo del proyecto es obtener resultados concluyentes para la implementación de recursos musicales en servicios de atención domiciliaria.
+`Music Stream` en colaboración con la `Fundación Armonía Social` solicita un estudio sobre tendencias musicales durante la pandemia. El objetivo del proyecto es obtener resultados concluyentes para la implementación de recursos musicales en servicios de atención domiciliaria.
 
 
 ## 2. 📊 Metodología
@@ -61,7 +60,3 @@ Incluir información `demográfica` para analizar situaciones de Soledad No Dese
 ### Proponer rutinas musicales para el bienestar:
 Usar los insights obtenidos para `diseñar playlists o estrategias musicales` enfocadas a una intervención preventiva en el domicilio y, a su vez, generando espacios de inclusión social virtuales.
  
-## 📎 Recursos y Contacto  
-📂 **Repositorio:** https://github.com/NuriaSalasVazquez/da-project-promo-49-modulo-2-team-4.git
-
-🔗 **Acceso a la Presentación:** http://bit.ly/4iabUmZ
