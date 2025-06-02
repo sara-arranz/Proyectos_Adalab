@@ -1,6 +1,5 @@
 # ROTACIÓN SILENCIOSA
-## CUANDO LA MENTE PESA, ¿POR QUÉ SE VAN?
-Por Sara Arranz y Diana P. Gómez 
+## CUANDO LA MENTE PESA, ¿POR QUÉ SE VAN
 
 ### 📌 Descripción del Proyecto
 
