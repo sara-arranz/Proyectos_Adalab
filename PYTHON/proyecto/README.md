@@ -5,11 +5,6 @@
 La empresa ABC Corporation busca reducir la rotación de empleados y mejorar la satisfacción de sus empleados en el entorno laboral.  Para ello, se desarrolla un proyecto de análisis de datos con el objetivo de identificar factores clave que influyen en la satisfacción y, en última instancia, en la retención de empleados.
 
 
-## 📂 ESTRUCTURA DE ARCHIVOS
-
-![alt text](Files/estructura_readme.png)
-
-
 ## 🛠️ ORGANIZACIÓN DEL TRABAJO
 
 
@@ -181,25 +176,9 @@ Descripción: Sistema de gestión de bases de datos relacional utilizado para al
 
 ## 🎥 Presentación final del proyecto
 
-🧠 Hemos preparado una presentación en Canva para explicar el enfoque, las fases del proyecto y nuestras conclusiones.
-
-👉 Puedes verla aquí: [Presentación Canva – DataMind](https://www.canva.com/design/DAGjZyqj95Q/-4QHk3NFcRy3qP5r0kzVkA/edit?utm_content=DAGjZyqj95Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
 ## 📑 Informe final del proyecto
 
 Además de este README, hemos elaborado un informe final completo en formato PDF.
 
 👉 Puedes consultarlo aquí: [📄 Informe Final – ABC Corporation](./Informe.pdf)
 
-
-## 📝 Autoras y agradecimientos
-
-Este proyecto ha sido desarrollado por el equipo **🧠 DataMind** dentro del Programa de Data Analytics de Adalab (Promoción 49).
-
-Queremos agradecer especialmente al equipo docente por su acompañamiento durante el módulo, y a nuestras compañeras por la colaboración, la paciencia y el apoyo constante.
-
-💡 Cualquier comentario o feedback será más que bienvenido.  
-¡Gracias por acompañarnos en este viaje de datos! 😊
-
-— **🧠 Equipo DataMind** | Abril 2025
