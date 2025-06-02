@@ -46,4 +46,8 @@ Tecnologías: SQL, Python (Pandas, Seaborn, Matplotlib, NumPy), PowerBi
 
 ## 📬 Contacto
 
-Correo Electrónico: sarranzizquierdo@gmail.com
+### sarranzizquierdo@gmail.com
+
+### www.linkedin.com/in/sarranzizquierdo22
+
+
